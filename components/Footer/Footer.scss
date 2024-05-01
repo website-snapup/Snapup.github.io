@@ -1,0 +1,26 @@
+.footer{
+    .copyright-text{
+        display: block;
+        margin-top: 0.7rem;
+    }
+}
+@media screen and (max-width: 992px){
+    footer{
+        font-size: 15px;
+    }
+    .copyright-text{
+        display: block;
+        margin-top: 0.5rem;
+    }
+    
+    }
+    @media screen and (max-width: 500px){
+        footer{
+            font-size: 10px;
+        }
+        .copyright-text{
+            display: block;
+            margin-top: 0.3rem;
+        }
+        
+        }
